@@ -24,7 +24,6 @@
 body {
   font-family: "Kumbh Sans", Helvetica, sans-serif;
   background-image: linear-gradient(var(--bg-violet), var(--bg-blue));
-  font-size: 18px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -108,7 +107,6 @@ h1 {
   margin-right: 5vw;
   font-weight: 400;
   overflow: auto;
-  /* min-height: 507px; */
   height: 507px;
 }
 
@@ -192,7 +190,7 @@ h1 {
   }
 
   .box-wrapper {
-    top: 33vh;
+    top: 36vh;
   }
 }
 
@@ -201,7 +199,9 @@ h1 {
 @media screen and (max-width: 425px) {
   body {
     overflow: visible;
-    margin-top: 15vw;
+    display: flex;
+    flex-direction: column;
+    margin: 20vh 24px 0 24px;
   }
 
   .card {
@@ -253,7 +253,12 @@ h1 {
     margin-left: 2rem;
   }
 
+  .question p {
+    margin-right: 10px;
+  }
+
   .attribution {
-    margin-bottom: -10vw;
+    position: relative;
+    margin-top: 20px;
   }
 }
