@@ -15,8 +15,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ## Overview
 
-This solution uses Javascript to toggle the answers.
-For an updated solution which toggles answer using CSS without any javascript visit [FAQ Accordion Without JS](https://github.com/santu369/frontendmentor-faq-accordion-card-with-js)
+- This solution uses Javascript to toggle the answers.
+- For an updated solution which toggles answer using CSS without any javascript visit [FAQ Accordion Without JS](https://github.com/santu369/frontendmentor-faq-accordion-card-with-js)
 
 ### The challenge
 
