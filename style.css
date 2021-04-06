@@ -11,6 +11,7 @@
   --light-gray: hsl(240, 5%, 91%);
 
   --light-pink: hsl(296, 100%, 90%);
+  --box-shadow: hsl(250, 48%, 48%);
   --white: #fff;
 }
 
@@ -46,6 +47,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   position: relative;
+  box-shadow: 0 20px 40px var(--box-shadow);
 }
 
 /* style card left images */
